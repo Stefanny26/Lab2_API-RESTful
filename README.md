@@ -155,4 +155,3 @@ Se presentaron desafíos como la conexión entre contenedores Docker y el servid
 * Mongoose. (2024). *Mongoose ODM Documentation*. [https://mongoosejs.com/](https://mongoosejs.com/)
 * Docker. (2024). *Docker Documentation*. [https://docs.docker.com/](https://docs.docker.com/)
 * Mozilla Developer Network. (2024). *HTTP Requests with Fetch and Axios*. [https://developer.mozilla.org/](https://developer.mozilla.org/)
-
