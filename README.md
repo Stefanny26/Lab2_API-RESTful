@@ -1,10 +1,7 @@
 
 # Consumo de una API RESTful desde una Aplicación Frontend
 
-**Tamaño de letra: 14**
-
-**Nombre del estudiante:** Stefanny Mishel Hernández
-**Tamaño de letra: 12**
+**Stefanny Mishel Hernández** 
 
 
 ## RESUMEN
