@@ -6,15 +6,7 @@ module.exports = {
   // 1. Listar usuarios
   listarUsuarios: async (req, res) => {
     try {
-      const usuarios = await       ## Endpoints de Consultas Avanzadas
-      
-      | Consulta                                      | Método | Endpoint                                      | Descripción                                      |
-      |-----------------------------------------------|--------|-----------------------------------------------|--------------------------------------------------|
-      | Listar todos los usuarios                     | GET    | /consultas/usuarios                           | Devuelve todos los usuarios                      |
-      | Laboratorios con equipos disponibles          | GET    | /consultas/laboratorios-disponibles           | Laboratorios con al menos un equipo disponible   |
-      | Contar equipos disponibles                    | GET    | /consultas/equipos-disponibles/count          | Número total de equipos en estado disponible     |
-      | Usuarios con correo institucional             | GET    | /consultas/usuarios/universitarios            | Usuarios cuyo correo termina en @universidad.edu |
-      | Promedio de equipos por laboratorio           | GET    | /consultas/promedio-equipos                   | Promedio de equipos por laboratorio              |;
+      const usuarios = await User.find();
       res.json(usuarios);
     } catch (error) {
       res.status(500).json({ error: error.message });
